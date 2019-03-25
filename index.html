@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Portifolio</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/mais.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+	</head>
+	
+	<body class="montserrat">
+		<header class="w3-container head w3-text-white w3-padding-24">
+			<h1 class="w3-center">Jeferson</h1>
+			<div class="w3-bar menu">
+				<div class="w3-bar-item w3-hover-blue" onclick="w3.toggleShow('#perfil')">Perfil</div>
+				<div class="w3-bar-item w3-hover-red" onclick="w3.toggleShow('#sobre')">Sobre</div>
+				<div class="w3-bar-item w3-hover-blue">Formação</div>
+				<div class="w3-bar-item w3-hover-orange">Competências</div>
+				<div class="w3-bar-item w3-hover-green"><a href="pages/certificacoes.php">Certificados</a></div>
+			</div>
+		</header>
+		
+		<div class="main">
+			
+			<div class="heavy w3-row">
+				<!--card-->
+				<div id="perfil" class="w3-container w3-col s3 card">
+					<section class="w3-panel w3-leftbar dark w3-text-white w3-card-4 w3-serif">
+						<div class="montserrat">
+							<h2>Projetos</h2>
+							<div class="w3-card-4">
+								<img src="img/images.jpg" alt="perfil" class="photo">
+							</div>
+
+							<ul class="menu w3-ul">
+								<li class="w3-hover-black"><a href="pages/snake.php">Snake</a></li>
+								<li class="w3-hover-blue"><a href="#">Bolinha</a></li>
+								<li class="w3-hover-green"><a href="#">Extras</a></li>
+								<li class="w3-hover-red" onclick="hide()">Sair</li>
+							</ul>
+						</div>
+
+					</section>
+				</div>
+				<!--Fim do card-->
+
+				<!--Conteudo-->
+				<div class="w3-container w3-col s9">
+					<section class="w3-panel w3-leftbar dark w3-text-white w3-card-4 w3-serif">
+						<!--Sobre-->
+							<div id="sobre" class="montserrat">
+								<h2 class="w3-center">Sobre</h2>
+								<p>Meu nome é jeferson, tenho 21 anos, sou estudande do ensino superior, Segurança da informação, 
+								tenho projetos pessoas em execução, tanto em desenvolvimento web, como games, alem de chatboxs</p>
+								<p>Meus hobbies são estudar, games e musíca.</p>
+
+								<!--sites-->
+								<div class="w3-row w3-margin">
+									<h3>Sites: </h3>
+									<nav class="w3-col m4 w3-center">
+										<ul class="menu w3-ul">
+											<li class="w3-hover-white w3-hover-text-black">
+												<a href="https://mirrofashion.ga">Loja de roupas</a>
+											</li>
+											<li class="w3-hover-red w3-hover-text-color-black">
+												<a href="https://trabtest.ga">Modelo - telecine</a>
+											</li>
+											<li class="w3-hover-orange w3-hover-text-color-black">
+												<a href="https://gtarefas.ga">Lista de tarefas</a>
+											</li>
+											<li class="w3-hover-blue w3-hover-text-color-black">
+												<a href="https://gcontatos.ga">Lista de contatos</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<!--Fim ds sites-->
+							</div>
+						<!--Fim do sobre-->
+					</section>
+				</div>
+				<!--fim do conteudo-->
+				
+				
+			</div>
+		</div>
+
+		<footer class="w3-container w3-black w3-padding">
+			<p class="w3-center">&copy;copyright DZjeff</p>
+		</footer>
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
