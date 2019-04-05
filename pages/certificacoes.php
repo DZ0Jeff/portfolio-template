@@ -30,6 +30,11 @@
 							<li id="foto02"> <span>SoloLearn - Python</span> </li>
 							<li id="foto03"> <span>Curso em Video - Python</span> </li>
 							<li id="foto04"> <span>MVC - Aprendendendo a programar</span> </li>
+							<li id="foto05"> <span>SoloLearn - PHP</span> </li>
+							<li id="foto06"> <span>Microcamp - Inglês</span> </li>
+							<li id="foto07"> <span>Microcamp - Games</span> </li>
+							<li id="foto08"> <span>Microcamp - Espanhol</span> </li>
+							<li id="foto09"> <span>Microcamp - Web Design</span> </li>
 						</ul>
 					</section>
 				</div>

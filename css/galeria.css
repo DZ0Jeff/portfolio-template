@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 ul#album-fotos{
-	
+	width: 80%;
 	margin: 0 auto;
-	padding: 50px;
+	padding: 30px;
 	overflow: hidden;
 	list-style: none;
 }
@@ -81,6 +81,66 @@ ul#album-fotos li#foto04 {
 }
 
 ul#album-fotos li#foto04:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+	background: url('../img/php.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 400px 400px;	
+	background-color: rgba(0, 0, 0,.4);
+}
+
+ul#album-fotos li#foto05:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+	background: url('../img/ingles-2.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 400px 400px;	
+	background-color: rgba(0, 0, 0,.4);
+}
+
+ul#album-fotos li#foto06:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto07 {
+	background: url('../img/cgames.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 400px 400px;	
+	background-color: rgba(0, 0, 0,.4);
+}
+
+ul#album-fotos li#foto07:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto08 {
+	background: url('../img/espanhol.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 400px 400px;	
+	background-color: rgba(0, 0, 0,.4);
+}
+
+ul#album-fotos li#foto08:hover {
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto09 {
+	background: url('../img/wer.jpg') no-repeat;	
+	background-position: 50% 50%;
+	background-size: 400px 400px;	
+	background-color: rgba(0, 0, 0,.4);
+}
+
+ul#album-fotos li#foto09:hover {
 	background-position: 0px 0px;
 	background-size: 200px 200px;
 }

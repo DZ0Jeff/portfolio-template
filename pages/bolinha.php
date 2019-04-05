@@ -18,7 +18,7 @@
 				<div class="w3-container w3-col s9 ">
 					<section class="w3-panel w3-leftbar dark w3-text-white w3-card-4 w3-serif">
 						<div class="montserrat">
-							<p><a href="snakeAlpha/index.html">Snake</a></p>
+							<p><a href="bolinha/jogo.php">Bolinha</a></p>
 						</div>
 					</section>
 				</div>

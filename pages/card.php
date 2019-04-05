@@ -9,7 +9,7 @@
 
 			<ul class="menu w3-ul">
 				<li class="w3-hover-black"><a href="snake.php">Snake</a></li>
-				<li class="w3-hover-blue"><a href="#">Bolinha</a></li>
+				<li class="w3-hover-blue"><a href="bolinha.php">Bolinha</a></li>
 				<li class="w3-hover-green"><a href="#">Extras</a></li>
 				<li class="w3-hover-red" onclick="hide(); startAnim('Left');">Sair</li>
 			</ul>
