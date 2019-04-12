@@ -3,21 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title> Snake - Prototipo </title>
-		<style type="text/css">
-			body {
-				text-align: center;
-			}
-			canvas {
-				border: 2px solid #f10000;
-			}
-			h1 {
-				color: #0082f1;
-				font-size: 50px;
-				text-align: center;
-				margin: 0;
-				padding-bottom: 25px;
-			}
-		</style>
+		<link rel="stylesheet" type="text/css" href="mais.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" type="text/css" href="addons.css">
 
 		<script type="text/javascript">
 			
@@ -27,7 +15,7 @@
 				var rect_w = 45; // Width 
 				var rect_h = 30; // Height
 				var inc_score = 50; // Score
-				var snake_color = "#006699"; // Snake Color
+				var snake_color = "red"; // Snake Color
 				var ctx; // Canvas attributes
 				var tn = []; // temp directions storage
 				var x_dir = [-1, 0, 1, 0]; // position adjusments
@@ -51,15 +39,13 @@
 
 				// Map positions
 
-				for (i = 0; i < rect_w; i++)
-				{
+				for (i = 0; i < rect_w; i++){
 					map[i] = [];
 				}
 
 				// random placement of snake food
 
-				function rand_frog() 
-				{
+				function rand_frog() {
 					var x, y;
 					do {
 						x = MR() * rect_w|0;
@@ -75,8 +61,7 @@
 				// Default somewhere placement 
 				rand_frog();
 
-				function set_game_speed() 
-				{
+				function set_game_speed() {
 					if (easy) 
 					{
 						X = (X+rect_w)%rect_w;
@@ -121,7 +106,7 @@
 					else if (!tn.length) 
 					{
 						var msg_score = document.getElementById("msg");
-						msg_score.innerHTML = "Thank you for playing game.<br /> Your Score : <b>"+score+"</b><br /><br /><input type='button' value='Play Again' onclick='window.location.reload();' />";
+						msg_score.innerHTML = "<span class='white'>Thank you for playing game.<br /> Your Score : </span><b class='white'>"+score+"</b><br /><br /><input type='button' value='Play Again' onclick='window.location.reload();' />";
 						document.getElementById("playArea").style.display = 'none';
 						window.clearInterval(interval);
 					}
@@ -164,8 +149,10 @@
 	</head>
 
 	<body onload="play_game()">
+		<?php include '../header.php'; ?>
 		<h1>Play Snake game</h1>
 		<div id="msg"></div>
 		<canvas id="playArea" width="450" height="300">Desculpa, seu navegador não suporta HTML5</canvas>
+		<?php include '../footer.php'; ?>
 	</body>
 </html>
