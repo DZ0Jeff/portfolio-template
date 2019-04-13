@@ -9,7 +9,7 @@
     <script src="Sprite.js"></script>
   </head>
   <body>
-    <?php require '../header.php'; ?>
+    
     <script type="text/javascript">
 
       // Variáveis do jogo
@@ -350,6 +350,13 @@
       // Inicializa o jogo
       main();
     </script>
-    <?php require '../footer.php'; ?>
+    
+    <footer class="w3-display-container w3-black w3-padding">
+      <nav class="w3-bar menu">
+        <div class="w3-bar-item w3-hover-blue">Menu principal</div>
+        <div class="w3-bar-item w3-hover-orange">Snake</div>
+      </nav>
+      <div class="w3-display-middle">@DZjeff</div>
+    </footer>
   </body>
 </html>
