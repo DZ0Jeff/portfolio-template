@@ -1,4 +1,8 @@
-<!doctype html>
+<?php 
+  $snake = 'http://localhost/portfolio/pages/snakeAlpha/index.php';
+  $index = 'http://localhost/portfolio/index.html';
+?>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -353,8 +357,8 @@
     
     <footer class="w3-display-container w3-black w3-padding">
       <nav class="w3-bar menu">
-        <div class="w3-bar-item w3-hover-blue">Menu principal</div>
-        <div class="w3-bar-item w3-hover-orange">Snake</div>
+        <div class="w3-bar-item w3-hover-blue"><a href="<?php echo $index; ?>">Menu principal</a></div>
+        <div class="w3-bar-item w3-hover-orange"><a href="<?php echo $snake; ?>">Snake</a></div>
       </nav>
       <div class="w3-display-middle">@DZjeff</div>
     </footer>
