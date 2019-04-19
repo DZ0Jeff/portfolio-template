@@ -1,4 +1,8 @@
-<!doctype html>
+<?php 
+  $snake = 'http://localhost/portfolio/pages/snakeAlpha/index.php';
+  $index = 'http://localhost/portfolio/index.html';
+?>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
@@ -9,7 +13,7 @@
     <script src="Sprite.js"></script>
   </head>
   <body>
-    <?php require '../header.php'; ?>
+    
     <script type="text/javascript">
 
       // Variáveis do jogo
@@ -350,6 +354,13 @@
       // Inicializa o jogo
       main();
     </script>
-    <?php require '../footer.php'; ?>
+    
+    <footer class="w3-display-container w3-black w3-padding">
+      <nav class="w3-bar menu">
+        <div class="w3-bar-item w3-hover-blue"><a href="<?php echo $index; ?>">Menu principal</a></div>
+        <div class="w3-bar-item w3-hover-orange"><a href="<?php echo $snake; ?>">Snake</a></div>
+      </nav>
+      <div class="w3-display-middle">@DZjeff</div>
+    </footer>
   </body>
 </html>
