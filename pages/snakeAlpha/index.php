@@ -153,6 +153,5 @@
 		<h1>Play Snake game</h1>
 		<div id="msg"></div>
 		<canvas id="playArea" width="450" height="300">Desculpa, seu navegador não suporta HTML5</canvas>
-		<?php include '../footer.php'; ?>
 	</body>
 </html>
