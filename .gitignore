@@ -11,3 +11,7 @@ img/ingles-2.jpg
 img/php.jpg
 img/wer.jpg
 
+#minify
+css/*
+css/galeria.css
+css/mais.css
