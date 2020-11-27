@@ -283,7 +283,7 @@
           record = 0;
 
         img = new Image();
-        img.src = "Img/sheet.png";
+        img.src = "img/sheet.png";
 
         roda();
       }
